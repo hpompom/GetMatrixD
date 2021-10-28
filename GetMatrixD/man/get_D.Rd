@@ -1,5 +1,5 @@
-\name{get_d}
-\alias{get_d}
+\name{get_D}
+\alias{get_D}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
 %%  ~~function to do ... ~~
