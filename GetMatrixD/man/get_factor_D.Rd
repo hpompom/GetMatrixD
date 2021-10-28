@@ -10,7 +10,7 @@ This function can get the D matrix in factor analysis
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
 }
 \usage{
-get_factor_D(x,m = 2, iter = 1000)
+get_factor_D(x, imax = 1000,m = 2)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
@@ -47,7 +47,7 @@ get_factor_D(x,m = 2, iter = 1000)
 }
 \examples{
 data = matrix(data = rnorm(100),10,10)
-get_factor_D(data,m = 2)
+get_factor_D(data,m = 2, imax = 1000)
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory (show via RShowDoc("KEYWORDS")):
 % \keyword{ ~kwd1 }
