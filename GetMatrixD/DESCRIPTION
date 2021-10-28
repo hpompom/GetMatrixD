@@ -4,7 +4,7 @@ Title: Get D matrix
 Version: 1.0
 Date: 2021-10-27
 Author: Hong Shaopeng
-Maintainer: Hong Shaopeng<hsp1999@stu.jnu.edu.cn>
+Maintainer: <hsp1999@stu.jnu.edu.cn>
 Description: Get D matrix via Rcpp
 License: GPL-2
 Imports: Rcpp (>= 1.0.6)
