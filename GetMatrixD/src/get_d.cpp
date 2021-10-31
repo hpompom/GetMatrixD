@@ -17,7 +17,7 @@ arma::mat get_D(arma::mat x,arma::mat D, int m, int iter){
     A =  eigvec.tail_cols( m );
     D = arma::diagmat( (Rho - A * A.t() ), 0 );
   }
-  return D;
+  return A;
 }
 
 
